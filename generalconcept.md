@@ -35,7 +35,7 @@ $ - 光标移至文本的行尾
 G - 光标移至文本的末尾  
 / - 查找某个字符串
   
- ### pwd (print work directory)
+### pwd (print work directory)
 功能：打印用户当前所处的路径  
 
 ### cd (change directory)
@@ -55,6 +55,6 @@ Is -s - 文件大小（以数据块为单位）
 ls -l 1.txt - 列举文件1.txt的所有信息
 
 
-## cat (concatenate)
+### cat (concatenate)
 功能：显示文件内容
 cat 1.txt
