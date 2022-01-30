@@ -16,13 +16,13 @@
 /root  root账户的home目录  
 /dev   存放Linux系统下的设备文件  
 
-### vi
+## vi
 功能：生成新文件或编辑、查看文件  
 格式：vi file_name  
 i     插入文本  
 a     追加文本  
 Esc   从编辑模式进入命令模式  
-#### 命令模式
+### 命令模式
 :w - 保存文件  
 :wq - 保存并退出  
 :wq! - 保存并强制退出  
@@ -35,16 +35,16 @@ $ - 光标移至文本的行尾
 G - 光标移至文本的末尾  
 / - 查找某个字符串
   
-### pwd (print work directory)
+## pwd (print work directory)
 功能：打印用户当前所处的路径  
 
-### cd (change directory)
+## cd (change directory)
 功能：改变用户所在目录
 cd .. - 返回当前目录的上一句目录  
 cd - 返回当前用户的主目录  
 cd /home 切换到home目录  
 
-### ls (list directory)
+## ls (list directory)
 功能：显示指定目录下的内容  
 ls -a -> 列举目录中的全部文件，包括隐藏文件  
 ls -l -> 列举目录中的细节，如权限、所有者、族群、大小、创建日期  
@@ -55,19 +55,19 @@ Is -s -> 文件大小（以数据块为单位）
 ls -l 1.txt -> 列举文件1.txt的所有信息  
 
 
-### cat (concatenate)
+## cat (concatenate)
 功能：显示文件内容
 cat 1.txt  
 
-### touch
+## touch
 功能：创建文本，不能插入内容  
 touch 1.txt 2.txt 3.txt  
 
-### grep
+## grep
 功能：在文件中找到特定的字符串  
 grep content 1.txt  
 
-### cp (copy)
+## cp (copy)
 功能：复制文件  
 copy -i -> 如果目标目录有相同文件，会提示是否覆盖  
 copy -r -> 复制整个目录、子目录及文件  
